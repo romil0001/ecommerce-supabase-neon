@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-supabase-neon",
+  "version": "0.1.0",
+  "description": "Ecommerce application that uses Supabase for authentication and user data and Neon for PostgreSQL database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.11.0",
+    "@neondatabase/serverless": "^0.1.1"
+  }
+}
