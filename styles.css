@@ -1,0 +1,40 @@
+/* Basic styles for the e-commerce demo */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+#preferences,
+#products {
+  margin-top: 1em;
+}
+
+ul#productList {
+  list-style: none;
+  padding: 0;
+}
+
+ul#productList li {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 0;
+}
