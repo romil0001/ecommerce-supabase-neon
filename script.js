@@ -1,7 +1,7 @@
 // Front-end logic for ecommerce demo using Supabase and Neon
 // Replace the placeholders with your actual Supabase project URL and anon key.
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
+const supabaseUrl = 'https://qttjywlsjxtzbupmsdnn.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF0dGp5d2xzanh0emJ1cG1zZG5uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA3MzgxNjMsImV4cCI6MjA4NjMxNDE2M30.J90ZGk7i41iUNUbvVgL2C5qQeCnF4Z_NWo461HB33SM';
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // Sign up new users
