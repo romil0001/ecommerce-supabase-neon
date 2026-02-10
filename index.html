@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Supabase Neon Demo</title>
+</head>
+<body>
+  <h1>Welcome to E-commerce Demo</h1>
+  <div id="auth">
+    <input id="email" placeholder="Email" />
+    <input id="password" placeholder="Password" type="password" />
+    <button id="signup">Sign Up</button>
+    <button id="login">Login</button>
+  </div>
+  <div id="preferences" style="display:none;">
+    <h2>User Preferences</h2>
+    <input id="preference" placeholder="Enter preference" />
+    <button id="savePreference">Save Preference</button>
+  </div>
+  <div id="products" style="display:none;">
+    <h2>Products</h2>
+    <ul id="productList"></ul>
+  </div>
+  <!-- Load Supabase client from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
